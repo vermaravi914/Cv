@@ -2,6 +2,7 @@ body {
 margin:0;
 text-align: center;
 font-family: 'Merriweather', serif;
+color:#40514E;
 font-size: 1.5rem;
 
 }
@@ -22,6 +23,7 @@ h2
   font-size: 2.5rem;
   color: #d35656;
   font-weight:normal;
+  padding-bottom: 10px;
 
 }
 
@@ -29,6 +31,29 @@ h3{
   font-family: 'Montserrat', sans-serif;
   color: #f66767;
 
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #f9d5bb 6px  ;
+  border-bottom: none;
+  width: 4%;
+  margin:100px auto;
+}
+
+a{
+  color:#d35656;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+
+}
+a:hover
+{
+  color:#f9d5bb;
 }
 .top-container
 {
@@ -40,6 +65,11 @@ h3{
 
 }
 
+
+.profilepic
+{
+  margin-top:20px;
+}
 
 .top-cloud
 {
@@ -53,17 +83,32 @@ h3{
 .bottom-cloud
 {
   position:absolute;
-  top:400px;
+  top:500px;
   left:400px;
 }
 
+
+
+.intro
+{
+  width:30%;
+  margin: auto;
+
+}
+.middle-container
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 .skill-row1
 {
   width: 50%;
   margin:100px auto 100px auto;
   text-align: left;
-  line-height: 2;
+
+  padding-bottom:30px;
+
 
 }
 .skill-row2
@@ -71,7 +116,7 @@ h3{
   width: 50%;
   margin:100px auto 100px auto;
   text-align: left;
-  line-height: 2;
+
 }
 .coding
 {
@@ -91,4 +136,41 @@ h3{
   margin-left: 20px;
 ;
 
+}
+
+.btn {
+  background: #d35656;
+  background-image: -webkit-linear-gradient(top, #d35656, #f66767);
+  background-image: -moz-linear-gradient(top, #d35656, #f66767);
+  background-image: -ms-linear-gradient(top, #d35656, #f66767);
+  background-image: -o-linear-gradient(top, #d35656, #f66767);
+  background-image: linear-gradient(to bottom, #d35656, #f66767);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f9d5bb;
+  background-image: -webkit-linear-gradient(top, #f9d5bb, #f66767);
+  background-image: -moz-linear-gradient(top, #f9d5bb, #f66767);
+  background-image: -ms-linear-gradient(top, #f9d5bb, #f66767);
+  background-image: -o-linear-gradient(top, #f9d5bb, #f66767);
+  background-image: linear-gradient(to bottom, #f9d5bb, #f66767);
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #3c3d47;
+  padding: 50px 0 20px;
+}
+
+.trademark{
+  color:white;
+  font-size: 0.75rem;
+  padding:10px
 }
